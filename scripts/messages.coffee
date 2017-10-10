@@ -5,7 +5,7 @@
 module.exports = (robot) ->
 
   robot.respond /universe/gim, (res) ->
-    res.send "> GitHub is great, and Training Day is greater!!"
+    res.send "> This is a new message!"
 
   robot.respond /USERNAME/gim, (res) ->
     res.send " > That person is awesome"
